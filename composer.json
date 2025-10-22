@@ -1,0 +1,26 @@
+{
+  "name": "slonline/jsonfield",
+  "description": "JSON MySQL DB Field - Module for SilverStripe 6",
+  "keywords": [
+    "silverstripe",
+    "CMS",
+    "JSON Field"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Lubos Odraska",
+      "email": "odraska@slonline.sk",
+      "homepage": "https://www.slonline.sk"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "~6"
+  },
+  "autoload": {
+    "psr-4": {
+      "SLONline\\ORM\\FieldType\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

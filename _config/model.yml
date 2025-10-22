@@ -1,0 +1,6 @@
+---
+Name: json-fieldtype
+---
+SilverStripe\Core\Injector\Injector:
+  JSONText:
+    class: SLONline\ORM\FieldType\DBJSONText
