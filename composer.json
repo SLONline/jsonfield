@@ -17,10 +17,22 @@
   "require": {
     "silverstripe/framework": "~6"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^11.3",
+    "slonline/silverstripe-mcp": "^6.x-dev"
+  },
   "autoload": {
     "psr-4": {
       "SLONline\\ORM\\FieldType\\": "src/"
     }
   },
-  "minimum-stability": "dev"
+  "autoload-dev": {
+    "psr-4": {
+      "SLONline\\ORM\\FieldType\\Tests\\": "tests/php/"
+    }
+  },
+  "minimum-stability": "dev",
+  "suggest": {
+    "slonline/silverstripe-mcp": "Lets AI agents (MCP) read and write JSON fields, optionally validated by a JSON Schema"
+  }
 }

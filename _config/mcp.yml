@@ -1,0 +1,8 @@
+---
+Name: jsonfield-mcp
+Only:
+  moduleexists: slonline/silverstripe-mcp
+---
+SLONline\MCP\Fields\FieldHandlerRegistry:
+  handlers:
+    json: SLONline\ORM\FieldType\MCP\JSONFieldHandler
